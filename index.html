@@ -6,8 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <script src="script.js"></script>
+    <style>
+        div{
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            border: 1px solid cyan;
+        }
+        .VsMatch{
+            font-weight: bold;
+            color: chartreuse;
+            font-size: large;
+        }
+        .result{
+            font-weight: bold;
+            color: red;
+            font-size: large;
+        }
+    </style>
 </head>
 <body>
-    
+    <div>
+        <h3 class="VsMatch" id="VsMatch"></h3>
+        <h3 class="result" id="result"></h3>
+    </div>
 </body>
 </html>
