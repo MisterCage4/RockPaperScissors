@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
     <style>
         div{
             display: flex;
-            align-self: center;
+            flex-direction: column;
+            align-items: center;
             justify-content: center;
             border: 1px solid cyan;
         }
@@ -23,12 +23,19 @@
             color: red;
             font-size: large;
         }
+        .finalscore{
+            font-weight: bold;
+            color: blue;
+            font-size: large;
+        }
     </style>
 </head>
 <body>
     <div>
-        <h3 class="VsMatch" id="VsMatch"></h3>
-        <h3 class="result" id="result"></h3>
+        <h3 class="VsMatch" id="VsMatch"> </h3>
+        <h3 class="result" id="result"> </h3>
+        <h3 class="finalscore" id="finalscore"> </h3>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
